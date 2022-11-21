@@ -31,7 +31,8 @@ font-size: 80px;}
  
 button {color:white;
     float:right;
-background-color: #f1b700;}
+background-color: #f1b700;font-size: 25px;
+}
 .tileflex{
     display: flex;
     justify-content: center;
@@ -41,5 +42,41 @@ background-color: #f1b700;}
     flex-basis: 80%;
 }
 
-ul{list-style: none;
+ul, li{list-style: none;
 }
+.items{padding-top: 20px; 
+    padding-bottom: 20px;
+    width: 60%;
+    margin-left: auto; 
+    margin-right: auto;}
+    #date {
+    padding-top: 10px;
+    text-align: center;
+}
+.itempicture {float: left;
+    padding-left: 30px;
+    padding-right: 60px;
+    padding-bottom: 30px;
+    height: 150px;
+    }
+    #map {
+        height: 200px;
+        text-align: center;}
+    .flexcontainer {
+        display: flex;
+        justify-content: center;
+        margin-left: 150px;
+        margin-right: 150px;
+    }
+    
+    .flexcolumn {
+        flex-basis: 80%;
+        text-align: center;
+        color: white;
+    }
+    
+    
+    
+    
+    
+    
